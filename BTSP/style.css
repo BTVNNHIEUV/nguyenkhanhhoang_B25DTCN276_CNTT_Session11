@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 62px;
+    background-color: #C0392B;
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+/* ======================== */
+.intro{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    margin: 80px 25%;
+    gap: 50px;
+}
+.box{ 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+}
+.intro img{
+    height: 100%;
+}
+/* ============================ */
+.menu{
+    width: 800px;
+    height: 300px;
+    margin-left: 16%;
+}
+.menu h2{
+    text-align: center;
+    margin-left: 200px;
+    color: #C0392B;
+}
+.menu img{
+    height: 130px;
+    width: 190px;
+}
+.box2{
+    display: flex;
+    width: 800px;
+    height: 200px;
+    margin: 80px 25%;
+    gap: 20px;
+    line-height: 25px;
+}
+.box2 div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 div{
+    background-color: #FFF9F5;
+    border-radius: 10px;
+}
+.box2 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius:  10px;
+}
+.price{
+    color:#C0392B
+}
+/* ========================= */
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #2C2C2C;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
